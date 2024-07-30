@@ -1,0 +1,35 @@
+@import './variables.module.scss';
+.card-section {
+  .card-wrapper {
+    background-color: $white-0;
+    border:1px solid $white-10;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding:16px 12px;
+    .title{
+      color:$black-10;
+      font-size: 0.875em;
+      font-weight: 600;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+      justify-content: space-between;
+    }
+    .info-wrapper{
+      margin-top:16px;
+      .card-info{
+        font-weight: 500;
+        font-size: 0.875em;
+        color:$grey-20;
+        margin-bottom:0;
+      }
+      .card-date{
+        font-size: 0.75em;
+        font-weight: 500;
+        color:$grey-60;
+        margin-bottom:0;
+      }
+    }
+  }
+}

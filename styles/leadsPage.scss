@@ -1,0 +1,104 @@
+@import "./variables.module.scss";
+
+.field-mapping-section {
+  border-radius: 4px;
+  padding:16px;
+  background-color: $white-0;
+  .title {
+    color:$black-10;
+    font-weight: 700;
+    font-size:1.25em;
+    margin-bottom:25px;
+  }
+  .field-mapping-holder {
+    max-width: 650px;
+    margin:0 auto;
+    .mapping-heading  {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .title  {
+        font-weight: 600;
+        color:$grey-20;
+        font-size: 0.875em;
+        margin:0;
+        .ico {
+          padding:0 6px 0 0;
+        }
+      }
+      .custom-dropdown {
+        width:280px;
+        .btn {
+          img {
+            margin-right:8px;
+          }
+        }
+      }
+    }
+  }
+  .mappings-wrapper {
+    margin-top:25px;
+    .mappings {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom:16px;
+      .cancel-ico {
+        text-decoration: none;
+        &:hover,
+        &:focus {
+          .ico-cross{
+            color: $blue-10;
+          }
+        }
+      }
+      .ico-relation,
+      .ico-cross {
+        color:$grey-10;
+        font-size: 0.9rem;
+      }
+      .file-object {
+        max-width: 250px;
+        width:100%;
+        border:1px solid $grey-50;
+        background-color: $white-0;
+        border-radius: 4px;
+        padding:6px 12px;
+        color:$grey-20;
+        font-size: 0.8125em;
+      }
+      .salesforce-object {
+        margin-left:22px;
+      }
+    }
+  }
+}
+.recipe-mapping-wrapper {
+  box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.25);
+  padding:0;
+  .title {
+    color: $black-10;
+    font-size: 1em;
+    font-weight: 400;
+    padding:14px 12px;
+    box-shadow: 0px 1px 0px 0px #C9C9C9;
+  }
+  .recipe-holder {
+    padding:10px 0;
+    .list {
+      li {
+        color:$grey-20;
+        font-size: 1em;
+        font-weight: 400;
+        margin-bottom:10px;
+        word-wrap: break-word;
+        padding-right: 20px;
+        .ico {
+          font-size: 0.5em;
+          vertical-align: 2px;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+$white-0:#ffffff;
+$white-10:#E5E5E5;
+$white-20:#F3F3F3;
+
+$black-0:#000000;
+$black-10:#242424;
+$black-20:#444444;
+$black-100:#181818;
+
+$blue-0:#F6FBFE;
+$blue-10:#009CDA;
+$blue-20:#0B5CAB;
+$blue-30:#1AA6DE;
+$blue-40:#0070D2;
+$blue-50:#1589ee;
+$blue-60:#EEF4FF;
+$blue-70:#0176D3;
+$blue-80:#008CC4;
+
+$grey-10:#A0A0A0;
+$grey-20:#5C5C5C;
+$grey-30:#A0A0A0;
+$grey-40:#747474;
+$grey-50:#C9C9C9;
+$grey-60:#939393;
+
+$red-10:#BA0517;
+$red-20:#8E030F;
+
+$green-10:#3BA755;
+$green-20:#2E844A;
+
+$yellow-10:#E4A201;
+$yellow-20:#FFD700;
+$yellow-30:#FFF3B3;
+ 
+:export {
+  white-0: $white-0;
+  white-10: $white-10;
+  white-20: $white-20;
+  black-0: $black-0;
+  black-10: $black-10;
+  black-20: $black-20;
+  black-100: $black-100;
+  blue-0: $blue-0;
+  blue-10: $blue-10;
+  blue-20: $blue-20;
+  blue-30: $blue-30;
+  blue-40: $blue-40;
+  blue-50: $blue-50;
+  blue-60: $blue-60;
+  blue-70: $blue-70;
+  blue-80: $blue-80;
+  grey-10: $grey-10;
+  grey-20: $grey-20;
+  grey-30: $grey-30;
+  grey-40: $grey-40;
+  grey-50: $grey-50;
+  grey-60: $grey-60;
+  red-10: $red-10;
+  red-20: $red-20;
+  green-10: $green-10;
+  green-20: $green-20;
+  yellow-10: $yellow-10;
+  yellow-20: $yellow-20;
+  yellow-30: $yellow-30;
+}

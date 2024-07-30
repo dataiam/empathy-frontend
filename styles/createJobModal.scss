@@ -1,0 +1,309 @@
+.selection-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 300px;
+  margin: 0 auto;
+  flex-direction: column;
+  .separator-upload {
+    background-color: $grey-50;
+    max-width: 285px;
+    width: 100%;
+    height: 2px;
+    margin: 0 10px;
+    display: block;
+    position: relative;
+    &::before,
+    &::after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      display: block;
+      background-color: $white-0;
+      border-radius: 15px;
+      position: absolute;
+    }
+    &::before {
+      left: -22px;
+      top: -3px;
+      outline: 8px solid $blue-70;
+    }
+    &::after {
+      right: -15px;
+      top: -3px;
+      background-color: $grey-50;
+    }
+  }
+}
+.separator-holder {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 375px;
+  margin: 20px auto 0 auto;
+  .label-info {
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+}
+.createJobForm {
+  max-width: 450px;
+  margin: 0 auto;
+  .upload-cloud-wrapper {
+    .title {
+      font-size: 1em;
+      font-weight: 700;
+      color: $black-10;
+      text-align: center;
+      margin: 16px 0;
+    }
+  }
+  .upload-cloud-wrapper {
+    padding-bottom: 130px;
+  }
+  .upload-item-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    > li {
+      padding: 0 9px 12px 9px;
+      display: inline-block;
+      > a {
+        display: inline-block;
+        background-color: $white-0;
+        border: 1px solid $white-10;
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.16);
+        padding: 20px 32px;
+        border-radius: 12px;
+        text-decoration: none;
+        border: 1px solid transparent;
+        &:hover,
+        &:focus {
+          border-color: $blue-10;
+        }
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      .item-title {
+        font-size: 0.75em;
+        color: $black-0;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+        margin-top: 8px;
+        line-height: 1.25;
+      }
+    }
+  }
+}
+.filter-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .search-holder {
+    max-width: 910px;
+    width: 100%;
+    position: relative;
+    .search-field {
+      border-color: $grey-50;
+      border-radius: 4px;
+      padding: 6px 12px 6px 30px;
+      color: $grey-60;
+      font-size: 0.8125rem;
+      &:focus {
+        box-shadow: none;
+        border-color: $blue-10;
+      }
+    }
+    .ico {
+      position: absolute;
+      top: 11px;
+      left: 12px;
+      color: $grey-10;
+      font-size: 0.8125rem;
+    }
+  }
+}
+.filter-tiles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+  .tile-list {
+    padding: 0;
+    margin: 0;
+    > li {
+      display: inline-block;
+      border: 1px solid $grey-50;
+      border-radius: 17px;
+      background-color: $white-0;
+      padding: 2px 7px 4px;
+      margin-right: 8px;
+      &:hover,
+      &:focus {
+        border-color: $blue-10;
+      }
+      > a {
+        text-decoration: none;
+      }
+      .tile-item {
+        color: $grey-20;
+        font-size: 0.8125em;
+      }
+    }
+  }
+  .view-panels-holder {
+    margin: 0;
+    padding: 0;
+    .panel-item {
+      display: inline-block;
+      padding-left: 8px;
+      .ico {
+        color: $grey-40;
+        font-size: 1.2rem;
+      }
+      &.active,
+      &:hover,
+      &:focus {
+        .ico {
+          color: $blue-10;
+        }
+      }
+      > a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.recipe-col {
+  &:nth-of-type(even) {
+    > div.recipe-holder {
+      background-color: $blue-10;
+      border-radius: 4px;
+    }
+    div.recipe-box {
+      background: linear-gradient(180deg, #33b0e1 -3.19%, #009cda 100%);
+      .recipe-info-box {
+        .recipe-stats {
+          .title {
+            color: $blue-0;
+          }
+        }
+        .recipe-users {
+          background-color: rgba(9, 149, 205, 0.7);
+        }
+      }
+    }
+  }
+  &:nth-of-type(odd) {
+    > div.recipe-holder {
+      background-color: $yellow-20;
+      border-radius: 4px;
+    }
+    div.recipe-box {
+      background: linear-gradient(
+        180deg,
+        rgba(179, 151, 0, 0.3) -3.19%,
+        #ccac00 100%
+      );
+    }
+  }
+}
+.recipe-box {
+  box-shadow: 0px 2px 2px 0px #0000001a;
+  border-radius: 4px;
+  padding: 16px;
+  position: relative;
+  min-height: 246px;
+  .title {
+    font-size: 2em;
+    color: $white-0;
+    font-weight: 600;
+  }
+
+  .recipe-info-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    .recipe-stats {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 12px 10px;
+      .title {
+        font-size: 0.875em;
+        font-weight: 600;
+        color: $yellow-30;
+        margin: 0;
+      }
+      .stats {
+        margin: 0;
+        font-size: 0.8125em;
+        color: $white-0;
+        font-weight: 600;
+        .ico {
+          font-size: 1rem;
+          margin-right: 4px;
+        }
+      }
+    }
+    .recipe-users {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(255, 215, 0, 0.25);
+      padding: 12px;
+      .img-holder {
+        color: $white-0;
+        font-size: 0.875em;
+        font-weight: 600;
+        > img {
+          margin-right: 4px;
+          vertical-align: -5px;
+        }
+      }
+    }
+    .badge-dept {
+      .badge {
+        background-color: rgba(0, 0, 0, 0.15);
+        border-radius: 23px;
+        padding: 4px 8px 5px;
+        font-size: 0.75em;
+        font-weight: 700;
+        color: $white-0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1199px) {
+  .createJModal {
+    .modal-dialog {
+      max-width: 1100px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .separator-holder {
+    max-width: 300px;
+  }
+  .selection-wrapper {
+    .separator-upload {
+      max-width: 210px;
+      margin: 0 auto;
+    }
+  }
+  .createJobForm {
+    .upload-cloud-wrapper {
+      padding-bottom: 0;
+    }
+  }
+}

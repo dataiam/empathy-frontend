@@ -1,0 +1,120 @@
+@import "./variables.module.scss";
+@import "./card.module.scss";
+@import "./createJobModal.scss";
+
+.form-group {
+  margin-bottom:16px;
+  .label {
+    font-size: 0.75em;
+    color:$black-20;
+    margin-bottom:2px;
+  }
+  .form-control {
+    border-color: $grey-50;
+    background-color: $white-0;
+    font-size: 0.8125em;
+    border-radius: 4px;
+    &:focus{
+      border-color:$blue-30;
+      box-shadow: 0px 0px 3px 0px $blue-40;
+    }
+    &:disabled, &.disabled {
+      background-color: $white-10;
+      border-color: $grey-10;
+    }
+    &.error {
+      border-color: $red-10;
+      background-color: $white-0;
+    }
+    + .error-message{
+      color:$red-20;
+      font-size: 0.75em;
+    }
+  }
+}
+.home-section {
+  .page-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .title {
+      font-size:2em;
+      color:$black-10;
+      font-weight: 400;
+      margin-bottom:24px;
+      small {
+        color:$grey-20;
+        font-size:1rem;
+        margin-left:16px;
+      }
+    }
+    .btn {
+      font-size:0.8125em;
+      .ico {
+        vertical-align: middle;
+      }
+    }
+  }
+  .wrapper-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:16px;
+    .title{
+      font-size: 1.25em;
+      color:$black-10;
+      font-weight: 600;
+      margin-bottom:0;
+    }
+    .filter-section{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .text {
+        font-size: 0.8125em;
+        color: $grey-20;
+        text-decoration: none;
+        &:hover,
+        &:focus{
+          color:$blue-10;
+        }
+        .ico {
+          font-size:0.8rem;
+          vertical-align: middle;
+          margin: 0 10px 0 5px;
+        }
+      }
+    }
+  }
+}
+.productivity-wrapper{
+  &.white-wrapper{
+    padding:24px 24px 58px 24px;
+  }
+  text-align: center;
+  .title{
+    text-align: left;
+    font-size: 1.25em;
+    color:$black-10;
+    font-weight: 600;
+    margin-bottom:30px;
+  }
+  .count-title{
+    font-size: 5.4375em;
+    font-weight: 700;
+    color: $blue-20;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.2;
+    .ico {
+      font-size: 1.6875rem;
+      color:$green-10;
+      padding-left: 6px;
+    }
+  }
+  .info{
+    font-size: 1.4375em;
+    color:$black-10;
+    text-align: center;
+  }
+}

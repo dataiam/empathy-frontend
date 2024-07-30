@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'dataIAm';
+  src:  url('fonts/dataIAm.eot?cs7rt0');
+  src:  url('fonts/dataIAm.eot?cs7rt0#iefix') format('embedded-opentype'),
+    url('fonts/dataIAm.ttf?cs7rt0') format('truetype'),
+    url('fonts/dataIAm.woff?cs7rt0') format('woff'),
+    url('fonts/dataIAm.svg?cs7rt0#dataIAm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dataIAm' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-run:before {
+  content: "\e915";
+}
+.icon-schedule:before {
+  content: "\e916";
+}
+.icon-cross-filled:before {
+  content: "\e914";
+}
+.icon-big-arrow-right:before {
+  content: "\e913";
+}
+.icon-file .path1:before {
+  content: "\e90f";
+  color: rgb(160, 160, 160);
+}
+.icon-file .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-file .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-file .path4:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-arrow-right:before {
+  content: "\e90e";
+}
+.icon-list-view:before {
+  content: "\e90b";
+}
+.icon-table-view:before {
+  content: "\e90c";
+}
+.icon-users:before {
+  content: "\e90d";
+}
+.icon-search:before {
+  content: "\e90a";
+}
+.icon-tick:before {
+  content: "\e909";
+}
+.icon-filter:before {
+  content: "\e908";
+}
+.icon-cross:before {
+  content: "\e907";
+}
+.icon-question:before {
+  content: "\e900";
+}
+.icon-bell:before {
+  content: "\e901";
+}
+.icon-down-arrow:before {
+  content: "\e902";
+}
+.icon-add:before {
+  content: "\e903";
+}
+.icon-info-circle:before {
+  content: "\e904";
+}
+.icon-down-chevron:before {
+  content: "\e905";
+}
+.icon-arrow-warm-up:before {
+  content: "\e906";
+}
