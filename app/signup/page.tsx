@@ -1,7 +1,7 @@
 
 import SignupForm from './signupForm';
 
-const SignUpPage = (formData: FormData) => {
+const SignUpPage = () => {
   return (
     <SignupForm/>
   )

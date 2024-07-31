@@ -1,7 +1,7 @@
 import LoginForm from "./loginForm";
 import '@styles/login.scss';
 
-const LoginPage = (formData: FormData) => {
+const LoginPage = () => {
   return (
     <LoginForm/>
   )

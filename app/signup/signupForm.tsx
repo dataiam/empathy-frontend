@@ -48,7 +48,9 @@ const SignupForm = () => {
                 <FormField
                 type="text"
                 placeholder="Full Name"
+                labelTitle="Full Name"
                 name="fullName"
+                id="fullName"
                 register={register}
                 error={errors.email}
                 classValue="form-control"
@@ -58,7 +60,9 @@ const SignupForm = () => {
                 <FormField
                 type="email"
                 placeholder="Email"
+                labelTitle="Email"
                 name="email"
+                id="email"
                 register={register}
                 error={errors.email}
                 classValue="form-control"
@@ -68,7 +72,9 @@ const SignupForm = () => {
                 <FormField
                 type="password"
                 placeholder="Password"
+                labelTitle="Password"
                 name="password"
+                id="password"
                 register={register}
                 error={errors.password}
                 classValue="form-control"

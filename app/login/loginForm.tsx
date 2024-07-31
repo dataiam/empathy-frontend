@@ -51,6 +51,7 @@ const LoginForm = () => {
                 labelTitle="Email"
                 placeholder="Email"
                 name="email"
+                id="email"
                 register={register}
                 error={errors.email}
                 classValue="form-control"
@@ -62,6 +63,7 @@ const LoginForm = () => {
                 labelTitle="Password"
                 placeholder="Password"
                 name="password"
+                id="password"
                 register={register}
                 error={errors.password}
                 classValue="form-control"

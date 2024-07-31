@@ -4,7 +4,7 @@ import googleIcon from '@public/assets/images/google_icon.svg';
 import cloudIcon from '@public/assets/images/cloud.svg';
 import Link from 'next/link';
 import Inputs from '@components/inputs';
-import { ButtonIcon, Buttons } from '@components/buttons';
+import { ButtonImage, Buttons } from '@components/buttons';
 
 const Login = () => {
   return (
@@ -35,8 +35,8 @@ const Login = () => {
               <Buttons type="submit" classValue="btn btn-blue w-100" title="Login"/>
             </form>
             <div className="seperator"><span className="text">OR</span></div>
-            <ButtonIcon type="button" btnClass="btn btn-blue-outline w-100 mb-3" title="Continue with Google"  imgClass="ico" url={googleIcon} width="16" height="16" alt="google icon"/>
-            <ButtonIcon type="button" btnClass="btn btn-blue-outline w-100" title="Continue with Salesforce"  imgClass="ico" url={cloudIcon} width="16" height="16" alt="cloud icon"/>
+            <ButtonImage type="button" btnClass="btn btn-blue-outline w-100 mb-3" title="Continue with Google"  imgClass="ico" url={googleIcon} width="16" height="16" alt="google icon"/>
+            <ButtonImage type="button" btnClass="btn btn-blue-outline w-100" title="Continue with Salesforce"  imgClass="ico" url={cloudIcon} width="16" height="16" alt="cloud icon"/>
           </div>
         </div>
       </div>
