@@ -27,6 +27,7 @@ const CreateNewJobForm = () => {
           labelTitle="Job Name"
           placeholder="Type job name..."
           name="jobName"
+          id="jobName"
           register={register}
           error={errors.jobName}
           classValue="form-control"

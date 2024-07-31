@@ -20,14 +20,13 @@ const LeadsInformationPage = () => {
               <button type="button" className="btn btn-outline me-2" data-bs-toggle="modal" data-bs-target="#connectToSalesforceModal">
                   Connect to Salesforce
               </button>
-              <div className="dropdown custom-dropdown">
+              <div className="dropdown custom-dropdown custom-dropdown-icon">
                 <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Run Job<span className="ico icon-down-chevron" aria-hidden="true"></span>
                 </button>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item active" href="#">All</a></li>
-                  <li><a className="dropdown-item" href="#">Completed</a></li>
-                  <li><a className="dropdown-item" href="#">Scheduled</a></li>
+                  <li><a className="dropdown-item active" href="#"><span className="ico icon-run" aria-hidden="true"></span>Run Job</a></li>
+                  <li><a className="dropdown-item" href="#"><span className="ico icon-schedule" aria-hidden="true"></span>Schedule Job</a></li>
                 </ul>
               </div>
             </div>

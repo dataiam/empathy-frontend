@@ -5,6 +5,7 @@ const FormField: React.FC<FormFieldProps> = ({
   type,
   labelTitle,
   placeholder,
+  id,
   name,
   register,
   error,
@@ -17,6 +18,7 @@ const FormField: React.FC<FormFieldProps> = ({
       type={type}
       className={classValue}
       placeholder={placeholder}
+      id={id}
       {...register(name, { valueAsNumber })}
     />
     {error && <span className="error-message">{error.message}</span>}

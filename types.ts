@@ -13,6 +13,7 @@ export type FormData = {
     labelTitle: string;
     placeholder: string;
     name: ValidFieldNames;
+    id: ValidFieldNames;
     register: UseFormRegister<FormData>;
     error: FieldError | undefined;
     valueAsNumber?: boolean;

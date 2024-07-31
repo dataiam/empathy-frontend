@@ -433,3 +433,31 @@
     }
   }
 }
+.custom-dropdown-icon{
+  .dropdown-menu{
+    > li{
+      padding:8px 14px;
+      text-align: left;
+      &:hover {
+        &:before{
+          content:"";
+        }
+      }
+      .dropdown-item{
+        padding:0;
+        .ico {
+          color:$grey-40;
+          font-size: 0.65rem;
+          padding-right:7px;
+        }
+        &:hover,
+        &:focus{
+          color:$blue-10;
+          .ico {
+            color:$blue-10;
+          }
+        }
+      }
+    }
+  }
+}
