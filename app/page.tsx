@@ -20,7 +20,7 @@ const LoginForm = () => {
         resolver: zodResolver(LoginSchema), // Apply the zodResolver
       });
       const onSubmit = async (data: FormData) => {
-        console.log("SUCCESS", data);
+        console.log("SUCCESS msg", data);
     }
   return (
     <section className="login-section">
