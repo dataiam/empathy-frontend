@@ -1,5 +1,6 @@
 
 import SignupForm from './signupForm';
+import '@styles/login.scss';
 
 const SignUpPage = () => {
   return (

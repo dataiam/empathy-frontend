@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@styles/common.scss';
+import '@styles/login.scss';
 
 const RootLayout = ({children}:{children: React.ReactNode}) => {
   useEffect(() => {
