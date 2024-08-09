@@ -1,3 +1,5 @@
+@import "./variables.module.scss";
+
 .selection-wrapper {
   display: flex;
   align-items: flex-start;
@@ -46,20 +48,41 @@
     font-weight: 600;
   }
 }
+.createJModal {
+  .btn-holder {
+    box-shadow: 0px -1px 0px 0px #c9c9c9;
+    background-color: $white-0;
+    border-radius: 0 0 4px 4px;
+    padding: 16px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 62px;
+  }
+}
 .createJobForm {
-  max-width: 450px;
-  margin: 0 auto;
+  max-width: 645px;
+  margin: 46px auto;
+  background-color: $white-0;
+  box-shadow: 0px 2px 3px 0px rgb(0 0 0 / 16%);
+  border-radius: 8px;
+  padding: 32px 96px 96px 96px;
+  .title {
+    color: $black-10;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.125em;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+  }
   .upload-cloud-wrapper {
     .title {
       font-size: 1em;
       font-weight: 700;
       color: $black-10;
       text-align: center;
-      margin: 16px 0;
+      margin: 20px 0 16px;
     }
-  }
-  .upload-cloud-wrapper {
-    padding-bottom: 130px;
   }
   .upload-item-list {
     margin: 0;

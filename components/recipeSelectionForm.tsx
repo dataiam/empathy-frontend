@@ -1,8 +1,7 @@
-import FormField from "./formFields";
-import { FormData, CreateJobSchema } from "@/types";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import RecipeCard from "./recipeCard";
+import { CreateJobSchema } from "@app/types/schema";
 
 const RecipeSelectionForm = () => {
   const {

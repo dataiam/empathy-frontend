@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'dataIAm';
-  src:  url('fonts/dataIAm.eot?cs7rt0');
-  src:  url('fonts/dataIAm.eot?cs7rt0#iefix') format('embedded-opentype'),
-    url('fonts/dataIAm.ttf?cs7rt0') format('truetype'),
-    url('fonts/dataIAm.woff?cs7rt0') format('woff'),
-    url('fonts/dataIAm.svg?cs7rt0#dataIAm') format('svg');
+  src:  url('fonts/dataIAm.eot?30rghm');
+  src:  url('fonts/dataIAm.eot?30rghm#iefix') format('embedded-opentype'),
+    url('fonts/dataIAm.ttf?30rghm') format('truetype'),
+    url('fonts/dataIAm.woff?30rghm') format('woff'),
+    url('fonts/dataIAm.svg?30rghm#dataIAm') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-delete:before {
+  content: "\e918";
+}
+.icon-upload:before {
+  content: "\e917";
+}
 .icon-run:before {
   content: "\e915";
 }

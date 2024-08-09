@@ -44,10 +44,12 @@ export type FormData = {
 //     message: "Passwords do not match",
 //     path: ["confirmPassword"], // path of error
 //   });
-export const CreateJobSchema: ZodType<FormData> = z
-  .object({
-    jobName: z.string({
-      required_error: "required field",
-      invalid_type_error: "Years of Experience is required",
-    }),
-  })
+
+// export const CreateJobSchema: ZodType<CrateJobFormData> = z.object({
+//   jobName: z.string().min(1, {
+//     message: "Job Name is required",
+//   }),
+//   uploadedFile: z.array(z.instanceof(File)).min(1, {
+//     message: "File is required.",
+//   })
+// });

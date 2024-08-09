@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import logo from "@public/assets/images/logo.svg";
 import loggedInUser from "@public/assets/images/user.png";
@@ -5,6 +6,7 @@ import Navbar from "./navbar";
 import '@styles/header.scss';
 
 const Header = () => {
+ 
   return (
     <header className="header">
       <div className="row">
@@ -40,19 +42,9 @@ const Header = () => {
                 </button>
                 <ul className="dropdown-menu dropdown-menu-end">
                   <li>
-                    <button className="dropdown-item" type="button">
-                      Action
-                    </button>
-                  </li>
-                  <li>
-                    <button className="dropdown-item" type="button">
-                      Another action
-                    </button>
-                  </li>
-                  <li>
-                    <button className="dropdown-item" type="button">
-                      Something else here
-                    </button>
+                    <a href="/api/signout" className="dropdown-item" type="button">
+                      Sign Out
+                    </a>
                   </li>
                 </ul>
               </div>

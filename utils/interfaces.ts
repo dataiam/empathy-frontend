@@ -47,3 +47,19 @@ type radioBtnProps = {
     title:string;
     isChecked:boolean;
 }
+
+type TokenResponse = {
+    token: string;
+    refresh_token: string;
+}
+
+type UserResponse = {
+    id: string;
+    name: string;
+    email: string;
+}
+
+type CreateJobFormData = {
+    jobName:string,
+    uploadedFile?:FileList;
+}

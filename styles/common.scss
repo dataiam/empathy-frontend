@@ -1,4 +1,7 @@
 @import './variables.module.scss';
+@import './createJobModal.scss';
+@import './formSteps.scss';
+@import './uploadFile.scss';
 @import url('../public/assets/fonts/style.css');
 @import '../node_modules/@syncfusion/ej2-base/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
@@ -13,7 +16,7 @@
 
 .main-app {
   background-color: $white-20;
-  padding:24px 0;
+  padding:24px 0 0 0;
 }
 ::placeholder {
   color: $grey-50;
@@ -72,7 +75,7 @@
 .btn.btn-grey-outline {
   background-color: $white-0;
   border-color: $grey-50;
-  color:$black-100;
+  color:$blue-10;
   padding: 7px 12px;
   font-size:0.75em;
   .font-600{
@@ -460,4 +463,9 @@
       }
     }
   }
+}
+.error-message{
+  color:$red-20;
+  font-size: 0.75em;
+  margin:3px 0 0 0;
 }

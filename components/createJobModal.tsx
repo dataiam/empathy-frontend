@@ -5,6 +5,7 @@ import CreateNewJobForm from "./createNewJobForm";
 import RecipeSelectionForm from "./recipeSelectionForm";
 
 const CreateJobModal = () => {
+  // eslint-disable-next-line react/jsx-key
   const { steps, step, isFirstStep, isLastStep, backToPrevStep, goToNextStep } = useMultiStepForm([<CreateNewJobForm/>, <RecipeSelectionForm/>]);
  
   return (

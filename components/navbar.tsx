@@ -75,6 +75,9 @@ const Navbar = () => {
             <li>
               <Link href="/leads">Leads Information</Link>
             </li>
+            <li>
+              <Link href="/newJobCreation">New Job Creation</Link>
+            </li>
           </ul>
         </div>
       </div>

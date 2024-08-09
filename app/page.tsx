@@ -73,7 +73,7 @@ const LoginForm = () => {
             </form>
             <div className="seperator"><span className="text">OR</span></div>
             <ButtonImage type="button" btnClass="btn btn-blue-outline w-100 mb-3" title="Continue with Google"  imgClass="ico" url={googleIcon} width="16" height="16" alt="google icon"/>
-            <Link className="btn btn-blue-outline w-100" target="_blank" href="https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9WVXk15qiz1JnhTsoAkAoWS9NV.xFAQZ8qEC.ZgKDLOaDtBXO4JvnoOCIyvS.KmP4jVkxjWRxkzSnUV4J&redirect_uri=http://localhost:5173/callback&scope=full">
+            <Link className="btn btn-blue-outline w-100" href="https://login.salesforce.com/services/oauth2/authorize?response_type=code&client_id=3MVG9WVXk15qiz1JnhTsoAkAoWS9NV.xFAQZ8qEC.ZgKDLOaDtBXO4JvnoOCIyvS.KmP4jVkxjWRxkzSnUV4J&redirect_uri=http://localhost:3000/&scope=full">
               <Image className="ico" src={cloudIcon} width="16" height="16" alt="cloud icon"/>
               Continue with Salesforce
             </Link>

@@ -3,7 +3,7 @@ import CreateJobModal from '@components/createJobModal';
 import ProductivityBoost from '@components/productivityBoost';
 import '@styles/home.scss';
 
-const Home = () => {
+const DashboardPage = () => {
   return (
     <>
     <div className="container-fluid">
@@ -51,4 +51,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default DashboardPage;
